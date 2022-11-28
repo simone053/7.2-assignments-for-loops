@@ -11,6 +11,8 @@ namespace _7._2_assignments_for_loops
     {
         static void Main(string[] args)
         {
+
+            //Simone
             Console.WriteLine("Type a message, and I'll display it five times.");
             Console.WriteLine("Message: ");
             String messages = Console.ReadLine();
