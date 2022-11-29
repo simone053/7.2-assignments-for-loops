@@ -34,21 +34,29 @@ namespace _7._2_assignments_for_loops
                     
             }
             Console.ReadLine();
+
             // Assignment 2: X and Y //
             Console.WriteLine("X    Y");
             for (int i = -10; i<= 10; i = i + 2)
             {
              Console.WriteLine(i + "\t" + i * i);
             }
+
             //Assignment 3: For Loop fun//
             Console.WriteLine("What's your name?");
-            string name;
+            Console.Write("Name: ");
+            string name = Console.ReadLine();
             for (int n = 10; n<= 1; n = n + 1 )
             {
-            
-                    
-            }
+                Console.WriteLine(n + ". " + name);
+                {
+                    if (name == "Aldworth")
+                        Console.WriteLine(n < 5);
+                        Console.ReadLine();
 
+                }
+            }
+                
             
         }
     }
